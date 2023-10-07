@@ -1,0 +1,41 @@
+.response-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    background-color: #00aaff;
+    opacity: 40%;
+    position: fixed;
+    left: 30%; /* Adjust the left position as needed */
+    top: 0;
+    z-index: -1;
+}
+
+.response-text {
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://kalix.club/uploads/posts/2023-03/1677819118_kalix-club-p-koshki-na-zastavku-oboi-80.jpg");
+    background-repeat: round;
+    z-index: -2;
+}
